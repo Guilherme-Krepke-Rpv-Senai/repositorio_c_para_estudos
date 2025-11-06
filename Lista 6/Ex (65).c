@@ -1,13 +1,15 @@
-// 63. Crie um programa usando a estrutura “faça enquanto” que leia vários números. A
-// cada laço, pergunte se o usuário quer continuar ou não. No final, mostre na tela:
-// a) O somatório entre todos os valores
-// b) Qual foi o menor valor digitado
-// c) A média entre todos os valores
-// d) Quantos valores são pares
+// 65. Desenvolva um programa usando a estrutura “para” que mostre na tela a seguinte
+// contagem: 100 90 80 70 60 50 40 30 20 10 0 Acabou!
 
 #include <stdio.h>
 
 int main(){
+    int i;
 
-    return 0;
+    for ( i = 100; i >= 0 ; i -= 10)
+    {
+        printf("\n|-%d",i);
+    }
+    printf(" - Acabou\n");
+
 }
